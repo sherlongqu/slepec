@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slepec</title>
+    <script defer src="renderer.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2 style="text-align: center;">ProjectController</h2>
+
+    <div>
+      <h3>CreateProject</h3>
+      <input type="text" id="projectName" placeholder="ProjectName" />
+      <input type="text" id="projectPath" placeholder="ProjectPath" />
+      <button id="selectFolder">selectFolder</button>
+      <button id="createProject">CreateProject</button>
+    </div>
+
+    <div>
+      <h3>删除文件</h3>
+      <input type="text" id="deleteFilePath" placeholder="要删除的文件路径" />
+      <button id="selectFile">选择文件</button>
+      <button id="deleteFile">删除文件</button>
+    </div>
+
+    <div id="output"></div>
+  </body>
+</html>
